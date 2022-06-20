@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "drinks",
+  "info": {
+    "name": "Drinks",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "drinkName": {
+      "type": "string",
+      "required": true
+    },
+    "price": {
+      "type": "integer",
+      "required": true
+    },
+    "category": {
+      "model": "categories",
+      "via": "drink"
+    },
+    "photo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "urlFood": {
+      "type": "uid",
+      "targetField": "drinkName"
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "review_drinks": {
+      "via": "drink",
+      "collection": "review-drinks"
+    }
+  }
+}

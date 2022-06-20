@@ -1,0 +1,50 @@
+{
+  "kind": "singleType",
+  "collectionName": "contacts",
+  "info": {
+    "name": "contact",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "address": {
+      "type": "richtext",
+      "required": true
+    },
+    "email": {
+      "type": "email"
+    },
+    "whatsapp1": {
+      "type": "biginteger"
+    },
+    "whatsapp2": {
+      "type": "biginteger"
+    },
+    "whatsapp3": {
+      "type": "biginteger"
+    },
+    "facebook": {
+      "type": "text"
+    },
+    "instagram": {
+      "type": "text"
+    },
+    "opening1": {
+      "type": "text"
+    },
+    "opening2": {
+      "type": "text"
+    },
+    "opening3": {
+      "type": "text"
+    },
+    "linkMap": {
+      "type": "text"
+    }
+  }
+}
