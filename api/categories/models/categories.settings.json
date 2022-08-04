@@ -28,7 +28,8 @@
     },
     "urlCategory": {
       "type": "uid",
-      "targetField": "categoryName"
+      "targetField": "categoryName",
+      "required": true
     },
     "drink": {
       "via": "category",

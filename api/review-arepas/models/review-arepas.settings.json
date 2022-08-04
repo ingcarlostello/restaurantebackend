@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "review_hot_dogs",
+  "collectionName": "review_arepas",
   "info": {
-    "name": "ReviewHotDogs",
-    "description": ""
+    "name": "ReviewArepas"
   },
   "options": {
     "increments": true,
@@ -24,9 +23,9 @@
     "clientName": {
       "type": "string"
     },
-    "hot_dog": {
-      "via": "review_hot_dogs",
-      "model": "hot-dogs"
+    "arepa": {
+      "via": "review_arepas",
+      "model": "arepas"
     }
   }
 }

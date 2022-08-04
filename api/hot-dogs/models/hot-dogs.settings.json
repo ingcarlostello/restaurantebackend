@@ -27,17 +27,20 @@
       "pluginOptions": {}
     },
     "description": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "urlFood": {
       "type": "uid",
-      "targetField": "hotDogName"
+      "targetField": "hotDogName",
+      "required": true
     },
     "category": {
       "model": "categories"
     },
     "price": {
-      "type": "biginteger"
+      "type": "biginteger",
+      "required": true
     },
     "review_hot_dogs": {
       "via": "hot_dog",

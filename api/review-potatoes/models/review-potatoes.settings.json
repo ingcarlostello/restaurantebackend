@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "review_hot_dogs",
+  "collectionName": "review_potatoes",
   "info": {
-    "name": "ReviewHotDogs",
+    "name": "ReviewPotatoes",
     "description": ""
   },
   "options": {
@@ -24,9 +24,9 @@
     "clientName": {
       "type": "string"
     },
-    "hot_dog": {
-      "via": "review_hot_dogs",
-      "model": "hot-dogs"
+    "potato": {
+      "via": "review_potatoes",
+      "model": "potatoes"
     }
   }
 }

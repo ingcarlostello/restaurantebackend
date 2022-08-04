@@ -32,7 +32,8 @@
     },
     "urlFood": {
       "type": "uid",
-      "targetField": "burgerName"
+      "targetField": "burgerName",
+      "required": true
     },
     "price": {
       "type": "integer",

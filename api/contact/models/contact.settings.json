@@ -25,9 +25,6 @@
     "whatsapp2": {
       "type": "biginteger"
     },
-    "whatsapp3": {
-      "type": "biginteger"
-    },
     "facebook": {
       "type": "text"
     },
